@@ -1,0 +1,28 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+.productnav {
+    background-color: #f3eeee;
+}
+.thumb-img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: contain !important;
+    cursor: pointer;
+    border: 2px solid #dee2e6;
+    border-radius: 5px;
+    margin: 4px;
+    transition: border-color 0.2s ease;
+}
+.thumb-img:hover {
+    border-color: #17a2b8;
+}
+.active-thumb {
+    border: 2px solid #17a2b8;
+}

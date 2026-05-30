@@ -1,0 +1,209 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.productnav {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3eeee;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.cartlistcount {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    align-items: center;
+}
+.counting {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counting p {
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+.temp {
+    display: flex;
+    flex-direction: column;
+}
+.ProductContent {
+    display: flex;
+    flex-direction: row;
+}
+.categoreies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    border-right: 1px solid #dee2e6;
+    flex-shrink: 0;
+}
+.item {
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.item p {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.categoryname {
+    font-size: 12px;
+    margin-top: 8px;
+}
+.categoryhr {
+    width: 100%;
+    margin-top: 0;
+}
+.itemhr {
+    width: 80%;
+}
+.procdustslist {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 100%;
+}
+.categorytitle p {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.categoryproducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.itemcard {
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.itemcard .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    padding: 10px;
+}
+.itemname {
+    font-size: 11px;
+    font-weight: 500;
+    min-height: 40px;
+    margin-bottom: 4px;
+}
+.itemmodel {
+    font-size: 9px;
+}
+.itemvalue {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+}
+.vprod {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+.vprod a {
+    color: blue;
+    text-decoration: underline;
+}
+.itemcardbtn {
+    padding-top: 8px;
+    border-top: 1px solid #dee2e6;
+}
+.counttext {
+    min-width: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.cartbtn {
+    width: 90px;
+    height: 30px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cartbtn:hover {
+    background-color: #006f94;
+}
+.prodframe {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    background: white;
+    z-index: 1000;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.prodframe i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 1001;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+.prodframe-close {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1002;
+    cursor: pointer;
+    background: #f8f9fa;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dee2e6;
+    transition: background 0.2s ease;
+    color: #333;
+    line-height: 1;
+    text-align: center;
+}
+.prodframe-close i {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.prodframe-close:hover {
+    background: #dee2e6;
+}

@@ -1,0 +1,161 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.productnav {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3eeee;
+}
+.productnav img {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+}
+.producthead {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.producthead h3 {
+    padding-left: 25px;
+}
+.cartcontent {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 20px;
+}
+.cartitem {
+    width: 70%;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cartitem1 {
+    width: 15%;
+    text-align: center;
+}
+.cartitem2 {
+    width: 15%;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.incdec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.incdec button{
+    border:none;
+    text-align:center;
+    background-color:#f5f5f5;
+}
+.inc,.dec,.count {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.inc,.dec {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+.totalrow td {
+    border-bottom: none;
+    padding-top: 20px;
+}
+.cartitem3 {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cartitem4 {
+    text-align: right;
+    padding-right: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.payments {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top: 2px solid #dcdcdc;
+
+}
+.payhead p{
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:20px;
+    margin-top:-20px;
+}
+.paytypes{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.payoption{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    width:100%;
+    padding:20px;
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    box-sizing:border-box;
+    transition:0.3s;
+}
+.payoption:hover{
+    background-color:#f5f5f5;
+}
+.payoption input[type="radio"]{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+.payoption label{
+    font-size:20px;
+    cursor:pointer;
+}
+.checkout{
+    display:flex;
+    width:100%;
+    margin-top:30px;
+    justify-content:flex-end;
+}
+.orderbtn {
+    display: flex;
+
+    width: 15%;
+    justify-content:center;
+}
+.buybtn {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius:5px;
+    background-color: #04AA6D;
+}

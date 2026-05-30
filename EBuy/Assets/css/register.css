@@ -1,0 +1,223 @@
+﻿body {
+    font-family: "Poppins", sans-serif;
+    background: url("../images/LandingBackground.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+label {
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-control {
+    transition: all 0.3s ease;
+}
+.form-control::placeholder {
+    font-size: 14px;
+    color: #999;
+}
+.back-icon {
+    color: black;
+    transition: 0.3s;
+}
+.back-icon:hover {
+    color: #007bff;
+}
+.error-msg {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+    min-height: 18px;
+}
+.is-valid {
+    border: 2px solid green !important;
+}
+.is-invalid {
+    border: 2px solid red !important;
+}
+.passcheck {
+    margin-top: 10px;
+}
+.form-check-label {
+    font-size: 15px;
+}
+input[type="submit"] {
+    font-size: 15px;
+    min-width: 120px;
+}
+.updateBtn,.deleteBtn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.updateBtn:hover {
+    color: #007bff;
+}
+.deleteBtn:hover {
+    color: red;
+}
+.updateBtn:focus,.deleteBtn:focus,.togglePassword:focus {
+    outline: none;
+    box-shadow: none;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-header {
+    background-color: #fff;
+}
+.card-header button {
+    font-weight: 600;
+    font-size: 16px;
+}
+.modal-content {
+    border-radius: 12px;
+}
+#modalUserTable {
+    width: 100% !important;
+}
+.table {
+    background-color: white;
+}
+.table th {
+    text-align: center;
+    vertical-align: middle;
+}
+.table td {
+    vertical-align: middle;
+}
+
+.loginlink {
+    margin-top: 10px;
+    text-align: center;
+}
+.togglePassword {
+    cursor: pointer;
+    border: none;
+    background: #e9ecef;
+    transition: 0.3s;
+}
+.togglePassword:hover {
+    background: #d6d8db;
+}
+.togglePassword i {
+    font-size: 14px;
+}
+.dt-state-btn {
+    margin-left: -80px !important;
+}
+.dt-load-btn {
+    margin-left: -100px !important;
+}
+div.dtsp-searchPanes {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+}
+.dt-paging .pagination {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    gap: 0 !important;
+}
+.dt-paging .dt-paging-button {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.dt-paging .dt-paging-button .page-link {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    margin-left: 2px !important;
+    border: 1px solid #dee2e6 !important;
+    font-size: 14px !important;
+    padding: 8px 14px !important;
+    color: #17a2b8 !important;
+    background-color: #fff !important;
+    transition: all 0.3s ease;
+    position: relative;
+    display: block;
+    float: none !important;
+}
+.dt-paging .dt-paging-button:first-child .page-link {
+    border-radius: 4px 0 0 4px !important;
+    margin-left: 0 !important;
+}
+.dt-paging .dt-paging-button:last-child .page-link {
+    border-radius: 0 4px 4px 0 !important;
+}
+.dt-paging .dt-paging-button.active .page-link {
+    z-index: 2;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+.dt-paging .dt-paging-button:not(.active):not(.disabled) .page-link:hover {
+    z-index: 1;
+    background-color: #d1ecf1 !important;
+    border-color: #17a2b8 !important;
+    color: #138496 !important;
+    margin-left: -1px !important;
+    position: relative !important;
+}
+.dt-paging .dt-paging-button.disabled .page-link {
+    color: #aaa !important;
+    background-color: #f8f9fa !important;
+    border-color: #dee2e6 !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 20rem;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 20rem;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    filter: invert(1);
+}
+.ui-datepicker {
+    z-index: 99999 !important;
+}
+#modalStartDate[readonly],#editModalStartDate[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+    color: #495057;
+    opacity: 1;
+}
+#modalUserTable thead th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+.select2-container--classic {
+    flex: 1 1 auto;
+    width: auto !important;
+}
+.select2-container--classic .select2-selection--multiple {
+    min-height: 38px !important;
+    height: auto !important;
+    padding: 2px 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0 0.25rem 0.25rem 0 !important;
+}
+@media (max-width: 768px) {
+    label {
+        font-size: 14px;
+    }
+    .card-header button {
+        font-size: 14px;
+    }
+    .form-check-label {
+        font-size: 14px;
+    }
+    .table {
+        font-size: 13px;
+    }
+}
