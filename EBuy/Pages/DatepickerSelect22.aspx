@@ -1507,6 +1507,7 @@
                             defaultContent: ''
                         },
                         {
+                            title:"name",
                             data: "fullName",
                             className: "text-center align-middle",
                             searchPanes: { show: true },
@@ -1514,6 +1515,7 @@
                             render: $.fn.dataTable.render.text()
                         },
                         {
+                            title:"gender",
                             data: "gender",
                             className: "text-center align-middle",
                             searchPanes: { show: true },
@@ -1524,7 +1526,7 @@
                         {
                             data: "dob",
                             className: "text-center align-middle",
-                            searchPanes: { show: true },
+                            searchPanes: { show: false },
                             orderable: false,
                             defaultContent: "—",
                             render: $.fn.dataTable.render.text()
@@ -1546,6 +1548,7 @@
                             render: $.fn.dataTable.render.text()
                         },
                         {
+                            title:"languages",
                             data: "languages",
                             className: "text-center align-middle",
                             searchPanes: { show: true },
@@ -1600,7 +1603,7 @@
                         {
                             data: "interest",
                             className: "text-center align-middle",
-                            searchPanes: { show: true },
+                            searchPanes: { show: false },
                             orderable: false,
                             defaultContent: "—",
                             render: function (data) {
@@ -1610,7 +1613,7 @@
                         {
                             data: "location",
                             className: "text-center align-middle",
-                            searchPanes: { show: true },
+                            searchPanes: { show: false },
                             orderable: false,
                             defaultContent: "—",
                             render: $.fn.dataTable.render.text()
